@@ -1,0 +1,64 @@
+body {
+  background-color: #030119;
+  color: #e3e9f2;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 300;
+}
+
+a {
+  color: #00d0ff;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px dotted;
+}
+
+@keyframes wiggle {
+  0% { transform: translate(2px, 0); }
+  50% { transform: translate(-2px, 0); }
+  100% { transform: translate(2px, 0); }
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 40px;
+  margin-left: 107px;
+}
+
+#main-container {
+  box-sizing: border-box;
+  margin: 10%;
+}
+
+#main {
+
+}
+
+#about-title {
+  margin-right: 50px;
+}
+
+#bio {
+  display: flex;
+}
+
+#projects-title {
+  margin-right: 60px;
+}
+
+#projects {
+  display: flex;
+}
+
+#articles-title {
+  margin-right: 48px;
+}
+
+#articles {
+  display: flex;
+  justify-content: space-between;
+}
